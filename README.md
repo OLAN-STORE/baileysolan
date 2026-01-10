@@ -118,12 +118,12 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.relayMessage(m.chat, {
   productMessage {
-    title: "DewaBail",
+    title: "",
     description: "zZZ...",
-    thumbnail: { url: "./ZeppImage" },
+    thumbnail: { url: "./YourImage" },
     productId: "EXAMPLE_TOKEN",
     retailerId: "EXAMPLE_RETAILER_ID",
-    url: "https://t.me/GupongShop",
+    url: "https://t.me/kayzennotdev",
     body: "Nak Tido",
     footer: "Footer",
     buttons: [
